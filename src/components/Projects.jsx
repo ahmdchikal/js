@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import project1 from '../assets/sistem-absensi.png'
 import project2 from '../assets/project-desainweb.png'
-import project3 from '../assets/project-3.svg'
+import project3 from '../assets/monitoringCrypto.png'
 
 const projects = [
   {
@@ -14,15 +14,16 @@ const projects = [
   {
     title: 'Desain Web Responsif',
     desc: 'Explorasi Kampus dan visi&misi .',
-    tags: ['CSS', 'bootstrap' ],
+    tags: ['CSS', 'bootstrap','HTML' ],
     image: project2,
     
   },
   {
-    title: 'Modeling 3D Sederhana',
-    desc: 'Koleksi karya desain 3D di Blender (modeling & rendering dasar).',
-    tags: ['Blender', '3D'],
+    title: 'Web Monitoring Crypto sederhana',
+    desc: 'Membuat web Monitoring crypto sederhana menggunakan API CoinMarketCap.',
+    tags: ['JavaScript', 'node.js', 'tailwind'],
     image: project3,
+    demo: 'https://prj-9wouia7h-frontend.vercel.app'
     
   }
 ]
